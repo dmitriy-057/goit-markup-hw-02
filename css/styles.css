@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+header {
+  color: #212121;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.logo {
+  color: #212121;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-text {
+  color: #2196f3;
+}
+.logo-link {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-link:hover,
+.logo-link:focus {
+  color: #2196f3;
+}
