@@ -1,56 +1,46 @@
-
-
-
- :root {
+:root {
   /* Основные шрифты */
   --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif; 
+  --secondary-font: "Raleway", sans-serif;
 
   /* Основной цвет текста */
+  --main-color: #757575;
 
   /* Основной цвет фона */
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+}
 
 body {
-  font-family: var(--main-font) 
-  color #757575;
+  font-family: var(--main-font);
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.02em;
   text-align: left;
 }
 
-.header-logo-first-text {
-  font-family: var(--secondary-font)
+.header-link {
+  font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #ccc;
-}
-
-
-.header-logo-second-text {
-  font-family: var(--secondary-font)
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: #000;
+  text-decoration: none;
 }
 
 .header {
   background-color: #ffffff;
-  
 }
 .nav-link {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  
-  
+  color: #000;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -58,17 +48,61 @@ body {
   color: #cccccc;
 }
 
-.header-contacts {
-  font-family: var(--main-font)
+.contacts {
+  font-family: var(--main-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  color: #757575;
-  
+  color: var(--main-color);
+  text-decoration: none;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.contacts:hover,
+.contacts:focus {
   color: #cccccc;
+}
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--secondary-background-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #cccccc;
+}
+.particular-title,
+.particular-subtitle {
+  visibility: hidden;
+}
+
+.particular-item {
+  display: inline-block;
+}
+.particular-text {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  text-align: center;
 }
