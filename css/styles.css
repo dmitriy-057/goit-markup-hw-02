@@ -1,34 +1,74 @@
+
+
+
+ :root {
+  /* Основные шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif; 
+
+  /* Основной цвет текста */
+
+  /* Основной цвет фона */
+
 body {
-  font-family: "Roboto";
-  color: #212121;
-}
-header {
-  color: #212121;
-  background-color: #ffffff;
+  font-family: var(--main-font) 
+  color #757575;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
-.logo {
-  color: #212121;
-  font-family: "Raleway";
-  font-weight: 700;
+
+.header-logo-first-text {
+  font-family: var(--secondary-font)
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
-  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ccc;
 }
-.logo-text {
-  color: #2196f3;
+
+
+.header-logo-second-text {
+  font-family: var(--secondary-font)
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000;
 }
-.logo-link {
-  color: #212121;
-  font-family: "Roboto";
-  font-weight: 500;
+
+.header {
+  background-color: #ffffff;
+  
+}
+.nav-link {
+  font-family: var(--main-font)
   font-size: 14px;
-  line-height: 1.2;
-  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  
+  
 }
-.logo-link:hover,
-.logo-link:focus {
-  color: #2196f3;
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #cccccc;
+}
+
+.header-contacts {
+  font-family: var(--main-font)
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  color: #757575;
+  
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #cccccc;
 }
