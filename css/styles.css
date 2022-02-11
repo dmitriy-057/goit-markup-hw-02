@@ -119,23 +119,22 @@ body {
 }
 
 .particular-subtitle {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-
 }
 .particular-text {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
-  color:var(--secondary-color) ;
+  color: var(--secondary-color);
 }
 
 /* О нас */
 .about {
-  background-color:var(--main-background-color);
+  background-color: var(--main-background-color);
 }
 .about-title {
   font-family: var(--main-font);
@@ -145,10 +144,9 @@ body {
   text-align: center;
 }
 
-
 /* Наша команда */
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team-title {
   font-family: var(--main-font);
@@ -172,7 +170,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-color);
-
 }
 
 /* Футер */
